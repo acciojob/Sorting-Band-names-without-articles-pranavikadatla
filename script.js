@@ -12,7 +12,7 @@
             return nameA.localeCompare(nameB);
         });
 
-        let ul = document.getElementById('band');
+        let ul = document.getElementById('bands');
         touristSpots.forEach(spot => {
             let li = document.createElement('li');
             li.textContent = spot;
